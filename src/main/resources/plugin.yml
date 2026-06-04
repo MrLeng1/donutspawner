@@ -1,0 +1,29 @@
+name: DonutSpawners
+version: 1.0.0
+main: dev.donutspawners.DonutSpawners
+api-version: '1.21'
+description: Custom stacking spawner plugin
+authors: [DonutSpawners]
+depend: []
+softdepend: [Vault]
+
+commands:
+  donutspawner:
+    description: DonutSpawners main command
+    aliases: [ds, spawner]
+    usage: /donutspawner give <player> <type>
+    permission: donutspawners.admin
+
+permissions:
+  donutspawners.admin:
+    description: Access to admin commands
+    default: op
+  donutspawners.give:
+    description: Give spawners to players
+    default: op
+  donutspawners.use:
+    description: Use spawners
+    default: true
+  donutspawners.silktouch.bypass:
+    description: Mine spawners without silk touch
+    default: op

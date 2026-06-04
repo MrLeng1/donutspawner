@@ -1,0 +1,4 @@
+# DonutSpawners Configuration
+auto_save_interval: 6000  # ticks (6000 = 5 minutes)
+require_silk_touch: true
+mob_loot_radius: 16       # blocks radius to absorb mob drops into spawner
